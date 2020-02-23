@@ -1,0 +1,11 @@
+[gd_scene format=2]
+
+[node name="Game Over" type="Node2D"]
+
+[node name="message" type="Node2D" parent="."]
+position = Vector2( 0.698334, 0 )
+
+[node name="label" type="Node" parent="message"]
+__meta__ = {
+"_editor_description_": "\"Game Over!\""
+}
